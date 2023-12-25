@@ -4,7 +4,7 @@ Discover and share AI Prompts
 
 Demo: promptopia-next14.vercel.app
 
-![Promptopia](https://github.com/[username]/[artemchernii]/blob/Promptopia/public/images/Promptopia.png?raw=true)
+![Promptopia](https://github.com/[username]/[artemchernii]/blob/Promptopia/public/assets/images/Promptopia.png?raw=true)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
