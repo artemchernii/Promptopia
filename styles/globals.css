@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -21,7 +21,7 @@
 .main:before {
     background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
     position: absolute;
-    content: "";
+    content: '';
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -29,8 +29,8 @@
 }
 
 .main:after {
-    content: "";
-    background-image: url("/assets/images/grid.svg");
+    content: '';
+    background-image: url('/assets/images/grid.svg');
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -44,25 +44,37 @@
     height: fit-content;
     z-index: 3;
     width: 100%;
-    max-width: 640px;
-    background-image: radial-gradient(
+    /* max-width: 640px; */
+    max-width: 100%;
+    /* background-image: radial-gradient(
             at 27% 37%,
             hsla(215, 98%, 61%, 1) 0px,
             transparent 0%
-    ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+        ),
+        radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+        radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%); */
+    background-image: linear-gradient(
+        45deg,
+        hsl(343deg 42% 77%) 0%,
+        hsl(356deg 47% 82%) 14%,
+        hsl(8deg 52% 85%) 29%,
+        hsl(17deg 55% 88%) 43%,
+        hsl(21deg 27% 83%) 57%,
+        hsl(21deg 9% 68%) 71%,
+        hsl(21deg 3% 54%) 86%,
+        hsl(0deg 0% 41%) 100%
+    );
     position: absolute;
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
-    filter: blur(50px) saturate(150%);
+    /* filter: blur(50px) saturate(150%); */
     top: 0px;
-    opacity: 0.30;
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 640px) {
