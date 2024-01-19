@@ -2,7 +2,7 @@
 
 Discover and share AI Prompts
 
-Demo: promptopia-next14.vercel.app
+Demo: https://promptopia-next14.vercel.app
 
 ![Promptopia](https://github.com/artemchernii/Promptopia/blob/master/public/assets/images/Promptopia.png?raw=true)
 
